@@ -28,7 +28,11 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build  -- --output-path=dist/browser
+        run: npm run build
+
+      - name: Move files to dist/browser
+        run:  mv dist/browser * dist
+
 
       - name: Build And Deploy
         id: builddeploy
