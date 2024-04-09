@@ -10,7 +10,7 @@
     "serve:ssr:nextStep": "node dist/next-step/server/server.mjs"
   },
   "engines": {
-    "node": "^20.x"
+    "node": "21.7.2"
   },
   "private": true,
   "dependencies": {
