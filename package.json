@@ -9,6 +9,9 @@
     "test": "ng test",
     "serve:ssr:nextStep": "node dist/next-step/server/server.mjs"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.1.0",
