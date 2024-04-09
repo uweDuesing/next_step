@@ -31,7 +31,7 @@ jobs:
         run: npm run build
 
       - name: Move files to dist/browser
-        run:  mv dist/browser * dist
+        run:  mv dist/browser/* ../
 
 
       - name: Build And Deploy
